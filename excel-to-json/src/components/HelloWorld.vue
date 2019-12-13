@@ -15,8 +15,10 @@
       </div>
     </div>
     <xlsx-read :file="file">
-      <xlsx-table />
-      <xlsx-json>
+      <hr />
+      <xlsx-table id="table1" />
+      <hr />
+      <xlsx-json id="json">
         <template #default="{collection}">
           <div>
             {{ collection }}
@@ -50,3 +52,13 @@ export default {
   }
 };
 </script>
+<style scoped>
+label{
+	font-family : BentonSans bold
+}
+#table1{
+  align-items: center;
+  color: red;
+  background-color: aqua;
+}
+</style>
