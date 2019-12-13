@@ -22,7 +22,7 @@ npm install -save vue-xlsx
 
 ### Guide to XLSX components
 
-See [Configuration Reference](https://vue-xlsx.netlify.com/guide/).
+See [Vue-Xlsx](https://vue-xlsx.netlify.com/guide/).
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
