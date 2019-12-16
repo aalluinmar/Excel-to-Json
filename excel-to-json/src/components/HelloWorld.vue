@@ -16,12 +16,13 @@
     </div>
     <xlsx-read :file="file">
       <hr />
-      <xlsx-table id="table1" />
+      <!-- <xlsx-table id="table1" /> -->
       <hr />
       <xlsx-json id="json">
         <template #default="{collection}">
           <div>
-            {{ collection }}
+            <!-- {{ collection }} -->
+            {{ storedata(collection) }}
           </div>
         </template>
       </xlsx-json>
@@ -42,12 +43,17 @@ export default {
   },
   data() {
     return {
-      file: null
+      file: null,
+      jsondata: null
     };
   },
   methods: {
     onChange(event) {
       this.file = event.target.files ? event.target.files[0] : null;
+    },
+    storedata(collection) {
+      console.log(collection)
+      this.jsondata = collection
     }
   }
 };
