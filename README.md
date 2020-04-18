@@ -1,4 +1,6 @@
-# excel-to-json
+# Excel-to-json
+
+A small web page developed by `Vue Js` and used for converting Excel Files to JSON Files by using some Vue JS built-in templates or libraries.
 
 ## Project setup
 ```
