@@ -7,9 +7,9 @@ A small web page developed by `Vue Js` and used for converting Excel Files to JS
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Additional packages to install
 ```
-npm run serve
+npm install -save vue-xlsx
 ```
 
 ### Compiles and minifies for production
@@ -17,10 +17,11 @@ npm run serve
 npm run build
 ```
 
-### Additional packages to install
+### Compiles and hot-reloads for development
 ```
-npm install -save vue-xlsx
+npm run serve
 ```
+
 
 ### Guide to XLSX components
 
